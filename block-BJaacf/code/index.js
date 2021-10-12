@@ -9,7 +9,7 @@ for(let number of numbers){
 console.log(sum);
 
 // 3. Calculate the average of array items and print it to the console using console.log()
-let avg = sum/numbers.length
+let avg = sum/numbers.length;
 console.log(avg);
 // 4. Find the highest number in the array and print it to the console using console.log()
 let maxNum=numbers[0];
