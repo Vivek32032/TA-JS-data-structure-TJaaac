@@ -4,7 +4,13 @@ let userIds = [1230, 234, 1278, 984, 763, 900];
 
 // 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
 let collection = [numbers, userIds];
-
+for(let num of numbers){
+  collection.push(nu,);
+}
+for (let id of userIds){
+  collection.push(id);
+}
+console.log(collection);
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
 let evenCollection= [];
                                       
@@ -47,6 +53,7 @@ function times(num,stringValue = 'test') {
   for (let i =0; i<num; i++){
     arr.push(stringValue); 
   }
+  return arr;
   console.log(arr);
 }
 
