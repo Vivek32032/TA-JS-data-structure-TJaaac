@@ -6,7 +6,7 @@ let character ={};
 //  - Go to this [Arya Stark](https://awoiaf.westeros.org/index.php/Arya_Stark)
 
 //  Re-assign the value of `character` variable to and object with the key `characterName` and value of "Arya"
-character={characterName: "Arya",}
+character={characterName: "Arya"}
 
 // - A variable named `age` is predefined with value 20. Add a new key named `character-age` with the value of `age` variable i.e 20 (don't use the value 20)
 
@@ -19,7 +19,7 @@ character["sur name"]='Stark';
 character.title='Lady of Winterfell';
 
 // - Add another property named `greet` and value should be a function when called should alert `I am [NAME HERE] and my title is [TITLE HERE]`.
-character.greet = () =>{return alert(`I am ${character['characterName']} and my title is ${character['sur name']}`);}
+character.greet = () =>{return alert(`I am ${character['characterName']} and my title is ${character.title}`);}
 
 // - Add a new property to the character object named `isFemale` and value will be `true`
 character["isFemale"] = true;
@@ -28,7 +28,7 @@ character["isFemale"] = true;
 character.greet();
 
 //  - Change the method `greet` to now alert `She is [NAME HERE] and her title is [TITLE HERE]`.
-character.greet=()=>{return alert(`She is ${character['characterName']} and her title is ${character['sur name']}`);}
+character.greet=()=>{return alert(`She is ${character['characterName']} and her title is ${character.title}`);}
 
 // - Check by calling `greet` and see if the message changed or not.
 //value changed.
